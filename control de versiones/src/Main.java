@@ -37,5 +37,14 @@ public class Main {
             System.out.println("El numero esta en la matriz") ;
         }
 
+        int suma = 0;
+        for (int i = 0 ; i < 5 ; i++){
+            for (int j = 0 ; j < 5 ; j++){
+             suma += array[i][j] ;
+            }
+        }
+        System.out.println("La suma de la matriz es " + suma) ;
+
+
     }
 }
