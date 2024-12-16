@@ -36,6 +36,7 @@ public class Main {
         }else {
             System.out.println("El numero esta en la matriz") ;
         }
+        
 
     }
 }
